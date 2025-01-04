@@ -1,0 +1,21 @@
+.hover-link {
+    transition: opacity 0.3s ease;
+  }
+  
+  .hover-link:hover {
+    opacity: 0.8;
+    text-decoration: underline !important;
+  }
+  
+  footer {
+    margin-top: auto; /* Sayfanın altında kalması için */
+  }
+  
+  /* Sosyal medya ikonları için hover efekti */
+  footer .social-icon {
+    transition: transform 0.3s ease;
+  }
+  
+  footer .social-icon:hover {
+    transform: translateY(-3px);
+  }
