@@ -18,7 +18,7 @@ const Footer: React.FC = () => {
                 <Link to="/vision" className="text-light text-decoration-none hover-link">Vizyon & Misyon</Link>
               </li>
               <li className="mb-2">
-                <Link to="/careers" className="text-light text-decoration-none hover-link">Kariyer</Link>
+                <Link to="/career" className="text-light text-decoration-none hover-link">Kariyer</Link>
               </li>
               <li className="mb-2">
                 <Link to="/contact" className="text-light text-decoration-none hover-link">İletişim</Link>

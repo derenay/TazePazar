@@ -1,0 +1,48 @@
+.hero-section {
+    background-color: #f8f9fa;
+    padding: 80px 0;
+    margin-bottom: 40px;
+  }
+  
+  .icon-circle {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+  .bg-primary-light {
+    background-color: rgba(13, 110, 253, 0.1);
+  }
+  
+  .card {
+    transition: all 0.3s ease;
+    border-radius: 10px;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .values-section .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+  }
+  
+  .list-unstyled li {
+    padding: 8px 0;
+  }
+  
+  @media (max-width: 768px) {
+    .hero-section {
+      padding: 40px 0;
+    }
+    
+    .icon-circle {
+      width: 60px;
+      height: 60px;
+    }
+  }

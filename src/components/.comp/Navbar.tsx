@@ -4,6 +4,12 @@ import { FaShoppingCart, FaStore, FaInstagram } from 'react-icons/fa';
 import { FiPackage } from 'react-icons/fi';
 import { BsTwitter } from 'react-icons/bs';
 import { FaUserCircle } from 'react-icons/fa';
+import SearchBar from './SearchBar';
+import '../../styles/SearchBar.css';
+
+
+
+
 const Navbar: React.FC = () => {
   const [isProductsOpen, setIsProductsOpen] = useState(false);
   const isLoggedIn = !!localStorage.getItem('token');
@@ -74,7 +80,7 @@ const Navbar: React.FC = () => {
             <li className="nav-item dropdown">
               <a
                 className="nav-link dropdown-toggle"
-                href="#"
+                href="/products"
                 role="button"
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
@@ -113,6 +119,9 @@ const Navbar: React.FC = () => {
               <Link to="/campaigns" className="nav-link">Kampanyalar</Link>
             </li>
           </ul>
+          
+
+          <SearchBar />  
 
           {/* Right Side Items */}
           <div className="d-flex align-items-center">

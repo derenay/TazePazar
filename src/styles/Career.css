@@ -1,0 +1,85 @@
+.hero-section {
+    background-color: #f8f9fa;
+    padding: 80px 0;
+    margin-bottom: 40px;
+  }
+  
+  .icon-circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+  .bg-primary-light {
+    background-color: rgba(13, 110, 253, 0.1);
+  }
+  
+  .card {
+    transition: all 0.3s ease;
+    border-radius: 10px;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+  }
+  
+  /* Process Timeline */
+  .process-timeline {
+    position: relative;
+    padding: 40px 0;
+  }
+  
+  .process-step {
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+    position: relative;
+  }
+  
+  .step-number {
+    width: 40px;
+    height: 40px;
+    background-color: #0d6efd;
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto 15px;
+    font-weight: bold;
+  }
+  
+  .process-step:not(:last-child)::after {
+    content: '';
+    position: absolute;
+    bottom: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 30px;
+    background-color: #dee2e6;
+  }
+  
+  /* Responsive */
+  @media (max-width: 768px) {
+    .hero-section {
+      padding: 40px 0;
+    }
+    
+    .process-step {
+      margin-bottom: 40px;
+    }
+  }
+  
+  /* Job Card */
+  .card .text-muted {
+    font-size: 0.9rem;
+  }
+  
+  .btn-outline-primary:hover {
+    color: white;
+  }
